@@ -19,7 +19,7 @@ namespace GorillaXS.Basics
 
         public override void OnRoomPropertiesUpdate(Hashtable propertiesThatChanged)
         {
-            Notifier.Notify("Room Update", "The room properties have been updated", Base64Icon: "warning");
+            Notifier.Notify("Room Update", "The room properties have been updated", icon: "warning");
         }
     }
 }
